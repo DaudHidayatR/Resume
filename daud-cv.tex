@@ -1,0 +1,167 @@
+%-------------------------
+% Resume in Latex
+% Author : Daud Hidayat Ramadhan
+% Based off of: https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Daud Hidayat Ramadhan} \\ \vspace{1pt}
+    \textbf{\large Backend \& Security Engineer $|$ DevSecOps $\cdot$ Cloud $|$ Go $\cdot$ K8s $\cdot$ GCP} \\ \vspace{1pt}
+    \small +6285718036517 $|$ 
+    \href{mailto:daud28ramadhan@gmail.com}{\underline{daud28ramadhan@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/daud-hidayat-ramadhan}{\underline{linkedin.com/in/daud-hidayat-ramadhan}} $|$ 
+    \href{https://github.com/DaudHidayatR}{\underline{github.com/DaudHidayatR}} $|$ 
+    Yogyakarta, Indonesia
+\end{center}
+
+\section{Professional Summary}
+  \begin{minipage}[t]{\linewidth}
+    \small
+    Backend \& Security Engineer building microservices, securing CI/CD pipelines,
+    and managing cloud infrastructure. Graduate of Bangkit Academy 2024 (Cloud
+    Computing) and IDCamp 2024 (DevOps Engineer --- Expert). Promoted from
+    Software Developer intern to Security Engineer (Contract) at BSI UII. I bridge
+    development and infrastructure through Go, PHP, Kubernetes, Ansible, and
+    OpenBao. Open to backend/DevSecOps/cloud opportunities.
+  \end{minipage}
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Backend}{: Go (Golang), PHP, REST APIs, Microservices} \\
+     \textbf{DevSecOps}{: Docker, Kubernetes, Ansible, OpenBao, CI/CD, Linkerd, SAST, Dependency Scanning, Secret Scanning} \\
+     \textbf{Cloud \& Infrastructure}{: Google Cloud Platform (GCP), Linux, Nginx} \\
+     \textbf{Languages}{: JavaScript, SQL, Bash} \\
+     \textbf{Tools}{: Git, GitHub, GitHub Actions, Postman, Jenkins, GitLab CI}
+    }}
+ \end{itemize}
+
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Security Engineer --- SOC/CSIRT Team (Contract)}{Jan 2026 -- Present}
+      {Badan Sistem Informasi UII}{Yogyakarta, Indonesia}
+      \resumeItemListStart
+        \resumeItem{Researched and prototyped Secure SDLC practices, establishing secure coding standards and automated security testing checkpoints for 7 development teams, reducing reliance on manual pre-deployment reviews}
+        \resumeItem{Built DevSecOps CI/CD pipeline integrating 4 automated scanners (SAST, dependency scanning, container scanning, and secret scanning) across 2 repositories, automating security validation in deployment workflows}
+        \resumeItem{Produced technical documentation and rollout roadmap enabling development teams to self-service security checks and reducing deployment bottlenecks}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Developer --- Internship}{Jan 2025 -- Dec 2025}
+      {Badan Sistem Informasi UII}{Yogyakarta, Indonesia}
+      \resumeItemListStart
+        \resumeItem{Maintained and enhanced legacy KUI scholarship service back-end, supporting disbursement operations for 500+ students across 5+ programs and stabilizing performance for production scholarship workflows}
+        \resumeItem{Developed REST API endpoints for student scholarship applications, handling core business logic and finance system integrations that streamlined the application-to-disbursement workflow}
+        \resumeItem{Automated domain unblock workflow using Google Apps Script, replacing 3--5 manual email requests per week with a self-service form that eliminated response delays and reduced SOC/CSIRT operational overhead}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\href{https://drive.google.com/file/d/190FYroVmyARbiZkc33vzVljwTeKRNs3x/view?usp=sharing}{IDCamp 2024}} --- DevOps Engineer (Expert) \hfill Jan 2025 \\
+     \textbf{\href{https://drive.google.com/file/d/1e3psOxecn3Y4ehhnL3ky5UiYhRN6qDQT/view?usp=sharing}{Bangkit Academy 2024}} --- Cloud Computing \hfill Jul 2024 \\
+     \textbf{\href{https://coursera.org/share/f0d2d8e9ef9646d4d7490c13b2a2bf44}{Google IT Support Professional Certificate}} \hfill Mar 2024
+    }}
+ \end{itemize}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universitas Islam Indonesia}{Yogyakarta, Indonesia}
+      {Bachelor of Informatics, GPA 3.70/4.00}{Aug 2021 -- Jan 2026}
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Security Scanning Orchestrator} $|$ \emph{Cloudflare Workers, TypeScript, D1}}{\href{https://github.com/DaudHidayatR/security-scanning-orchestrator.git}{\underline{GitHub}}}
+          \resumeItemListStart
+            \resumeItem{Serverless pipeline receiving GitHub webhooks, normalizing multi-scanner reports (Trivy, Grype, GitLeaks, Semgrep) into unified D1 schema with tiered alerting (Telegram/email).}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Self-Hosted DevSecOps Platform} $|$ \emph{Kind, Istio, OpenBao, Kustomize}}{\href{https://github.com/DaudHidayatR/homelab-devsecops.git}{\underline{GitHub}}}
+          \resumeItemListStart
+            \resumeItem{Kind cluster on personal VPS with Istio service mesh and OpenBao secrets. Dual-scan pipeline (raw-file + rendered-manifest) with SBOM generation (SPDX + CycloneDX).}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{document}
