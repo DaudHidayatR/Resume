@@ -82,33 +82,35 @@
 
 \begin{center}
     \textbf{\Huge \scshape Daud Hidayat Ramadhan} \\ \vspace{1pt}
-    \textbf{\large Backend \& Security Engineer $|$ DevSecOps $\cdot$ Cloud $|$ Go $\cdot$ K8s $\cdot$ GCP} \\ \vspace{1pt}
-    \small +6285718036517 $|$ 
-    \href{mailto:daud28ramadhan@gmail.com}{\underline{daud28ramadhan@gmail.com}} $|$ 
-    \href{https://linkedin.com/in/daud-hidayat-ramadhan}{\underline{linkedin.com/in/daud-hidayat-ramadhan}} $|$ 
-    \href{https://github.com/DaudHidayatR}{\underline{github.com/DaudHidayatR}} $|$ 
+    \textbf{\large DevSecOps \& Backend Engineer $|$ Secure SDLC $\cdot$ CI/CD Security $\cdot$ Go $\cdot$ Kubernetes} \\ \vspace{1pt}
+    \small +6285718036517 $|$
+    \href{mailto:me@daudhr.com}{\underline{me@daudhr.com}} $|$
+    \href{https://daudhr.com}{\underline{daudhr.com}} $|$
+    \href{https://linkedin.com/in/daud-hidayat-ramadhan}{\underline{linkedin.com/in/daud-hidayat-ramadhan}} $|$
+    \href{https://github.com/DaudHidayatR}{\underline{github.com/DaudHidayatR}} $|$
     Yogyakarta, Indonesia
 \end{center}
 
 \section{Professional Summary}
   \begin{minipage}[t]{\linewidth}
     \small
-    Backend \& Security Engineer building microservices, securing CI/CD pipelines,
-    and managing cloud infrastructure. Graduate of Bangkit Academy 2024 (Cloud
-    Computing) and IDCamp 2024 (DevOps Engineer --- Expert). Promoted from
-    Software Developer intern to Security Engineer (Contract) at BSI UII. I bridge
-    development and infrastructure through Go, PHP, Kubernetes, Ansible, and
-    OpenBao. Open to backend/DevSecOps/cloud opportunities.
+    DevSecOps \& Backend Engineer focused on secure backend systems, Secure
+    SDLC enablement, and CI/CD security automation. Promoted at BSI UII from
+    Software Developer intern to Security Engineer after shipping backend APIs,
+    vulnerability-management workflows, and security-scanning proof-of-concepts.
+    Portfolio at daudhr.com documents practical work across Go, PHP/Laravel,
+    Kubernetes, OpenBao, GitOps, Linux security automation, and scanner-driven
+    delivery pipelines.
   \end{minipage}
 
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Backend}{: Go (Golang), PHP, REST APIs, Microservices} \\
-     \textbf{DevSecOps}{: Docker, Kubernetes, Ansible, OpenBao, CI/CD, Linkerd, SAST, Dependency Scanning, Secret Scanning} \\
-     \textbf{Cloud \& Infrastructure}{: Google Cloud Platform (GCP), Linux, Nginx} \\
-     \textbf{Languages}{: JavaScript, SQL, Bash} \\
-     \textbf{Tools}{: Git, GitHub, GitHub Actions, Postman, Jenkins, GitLab CI}
+     \textbf{Backend}{: Go (Golang), PHP, Laravel, REST APIs, Microservices, SQL} \\
+     \textbf{DevSecOps}{: Secure SDLC, CI/CD Security, SAST, SCA, Secret Scanning, Container Scanning, SBOM, IaC Policy} \\
+     \textbf{Infrastructure}{: Docker, Kubernetes, Kind, Istio, OpenBao, Flux CD, Ansible, Linux, Nginx} \\
+     \textbf{Cloud \& Automation}{: Google Cloud Platform (GCP), Cloudflare Workers, Bash, Google Apps Script} \\
+     \textbf{Tools}{: Git, GitHub Actions, GitLab CI, Jenkins, Postman, Trivy, Grype, GitLeaks, Semgrep, Syft}
     }}
  \end{itemize}
 
@@ -119,18 +121,20 @@
       {Security Engineer --- SOC/CSIRT Team (Contract)}{Jan 2026 -- Present}
       {Badan Sistem Informasi UII}{Yogyakarta, Indonesia}
       \resumeItemListStart
-        \resumeItem{Researched and prototyped Secure SDLC practices, establishing secure coding standards and automated security testing checkpoints for 7 development teams, reducing reliance on manual pre-deployment reviews}
-        \resumeItem{Built DevSecOps CI/CD pipeline integrating 4 automated scanners (SAST, dependency scanning, container scanning, and secret scanning) across 2 repositories, automating security validation in deployment workflows}
-        \resumeItem{Produced technical documentation and rollout roadmap enabling development teams to self-service security checks and reducing deployment bottlenecks}
+        \resumeItem{Designed Secure SDLC guidance covering secure coding standards, security testing protocols, and CI/CD checkpoints for 7 internal development teams}
+        \resumeItem{Built DevSecOps pipeline proof-of-concepts integrating SAST, dependency scanning, container scanning, and secret scanning across 2 repositories}
+        \resumeItem{Developed a web-based vulnerability assessment management system for SOC/CISRT workflows, centralizing security findings and remediation follow-up}
+        \resumeItem{Produced rollout documentation so developers can run repeatable security checks before deployment without waiting for manual SOC review}
       \resumeItemListEnd
 
     \resumeSubheading
       {Software Developer --- Internship}{Jan 2025 -- Dec 2025}
       {Badan Sistem Informasi UII}{Yogyakarta, Indonesia}
       \resumeItemListStart
-        \resumeItem{Maintained and enhanced legacy KUI scholarship service back-end, supporting disbursement operations for 500+ students across 5+ programs and stabilizing performance for production scholarship workflows}
-        \resumeItem{Developed REST API endpoints for student scholarship applications, handling core business logic and finance system integrations that streamlined the application-to-disbursement workflow}
-        \resumeItem{Automated domain unblock workflow using Google Apps Script, replacing 3--5 manual email requests per week with a self-service form that eliminated response delays and reduced SOC/CSIRT operational overhead}
+        \resumeItem{Maintained and enhanced legacy KUI scholarship service backend supporting scholarship disbursement operations for 500+ students across 5+ programs}
+        \resumeItem{Developed REST API endpoints for scholarship application workflows, including business logic, database queries, and internal finance-system integrations}
+        \resumeItem{Optimized backend query and response patterns to improve maintainability and reliability for production scholarship services}
+        \resumeItem{Automated domain unblock workflow using Google Apps Script, replacing 3--5 manual email requests per week with a self-service form}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -153,14 +157,19 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Security Scanning Orchestrator} $|$ \emph{Cloudflare Workers, TypeScript, D1}}{\href{https://github.com/DaudHidayatR/security-scanning-orchestrator.git}{\underline{GitHub}}}
+          {\textbf{DevSecOps Security Scanning Pipeline} $|$ \emph{Bash, GitHub Actions, Trivy, Semgrep, GitLeaks, Syft}}{\href{https://daudhr.com/projects/devsecops-security-scanning-pipeline}{\underline{daudhr.com}}}
           \resumeItemListStart
-            \resumeItem{Serverless pipeline receiving GitHub webhooks, normalizing multi-scanner reports (Trivy, Grype, GitLeaks, Semgrep) into unified D1 schema with tiered alerting (Telegram/email).}
+            \resumeItem{Built public Secure SDLC boilerplate that runs SAST, secret scanning, dependency/container scanning, SBOM generation, and IaC policy validation locally and in CI/CD.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Self-Hosted DevSecOps Platform} $|$ \emph{Kind, Istio, OpenBao, Kustomize}}{\href{https://github.com/DaudHidayatR/homelab-devsecops.git}{\underline{GitHub}}}
+          {\textbf{Self-Hosted DevSecOps Lab} $|$ \emph{Kind, Istio, OpenBao, Flux CD, Tailscale}}{\href{https://daudhr.com/projects/self-hosted-devsecops-lab}{\underline{daudhr.com}}}
           \resumeItemListStart
-            \resumeItem{Kind cluster on personal VPS with Istio service mesh and OpenBao secrets. Dual-scan pipeline (raw-file + rendered-manifest) with SBOM generation (SPDX + CycloneDX).}
+            \resumeItem{Created reproducible Kubernetes lab for practicing GitOps, service mesh, secrets management, network policy, private access, and security-scanning workflows.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Linux Security Audit Automation} $|$ \emph{Shell, Lynis, Fail2ban, auditd, msmtp}}{\href{https://daudhr.com/projects/linux-security-audit-automation}{\underline{daudhr.com}}}
+          \resumeItemListStart
+            \resumeItem{Automated weekly host security reports covering hardening checks, brute-force protection, audit logging, package integrity, account hygiene, and optional email delivery.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
