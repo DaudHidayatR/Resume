@@ -1,6 +1,6 @@
 # Daud Hidayat Ramadhan — CV
 
-**DevSecOps & Backend Engineer | Secure SDLC | CI/CD Security | Go | Kubernetes**
+**Application Security Engineer | DevSecOps Security Automation | Backend Engineering**
 
 This repository contains my professional CV, built with LaTeX and aligned with my personal portfolio at **[daudhr.com](https://daudhr.com)**.
 
@@ -73,8 +73,8 @@ Upload `daud-cv.tex` to [overleaf.com](https://www.overleaf.com) and click **Rec
 
 ## About This CV
 
-- **Identity:** DevSecOps & Backend Engineer focused on Secure SDLC, CI/CD security, and secure backend systems
-- **Experience:** Security Engineer at BSI UII, previously Software Developer intern
+- **Identity:** Application Security Engineer building DevSecOps security automation, grounded in backend engineering
+- **Experience:** Application Security Engineer — SOC/CSIRT Team at BSI UII, previously Software Developer intern
 - **Education:** Universitas Islam Indonesia — Bachelor of Informatics, GPA 3.70/4.00
 - **Certifications:** IDCamp 2024 DevOps Engineer Expert, Bangkit Academy 2024 Cloud Computing, Google IT Support Professional Certificate
 - **Portfolio Website:** [daudhr.com](https://daudhr.com)
